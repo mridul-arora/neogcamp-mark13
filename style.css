@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+  --primary-color: #c2410c;
+  --secondary-color: #f97316;
+  --off-white: #fff7ed;
+  --dark-gray: #57534e;
+}
+
+body {
+  /* the good one */
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px auto;
+  min-width: 400px;
+  width: 50%;
+}
+
+/** navbar **/
+.heading {
+  text-align: left;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 1rem;
+  margin: 1rem -1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 var(--dark-gray), 0 6px 20px 0 var(--dark-gray);
+}
+
+
+.description {
+  background-color: var(--off-white);
+  display: block;
+  margin: 0rem -1rem;
+  padding: 1rem;
+  /* padding-top: 1.5rem; */
+}
+
+/** footers **/
+
+.footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 1rem;
+  margin: 1rem -1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.footer .link {
+  color: var(--off-white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .list-item-inline {
+  display: inline;
+  padding: 1rem;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+/* container */
+
+.container {
+  display: block;
+  width: 100%;
+  background-color: var(--off-white);
+  padding: 0 1rem;
+  margin: 0 -1rem;
+  text-align: center;
+}
+
+label,
+input {
+  display: block;
+  width: 35%;
+  min-width: 250px;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 1rem auto;
+}
+
+#btn-bday-pdrome {
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 0.6rem 1rem;
+  border: none;
+  width: 30%;
+  min-width: 200px;
+  margin: 0.5rem auto;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 var(--dark-gray);
+}
+
+#outputLeft,
+#outputRight,
+span {
+  width: 40%;
+  padding: 0.5rem;
+  font-size: smaller;
+}
+
+#outputRight {
+  float: right;
+}
+
+#outputLeft {
+  float: left;
+}
