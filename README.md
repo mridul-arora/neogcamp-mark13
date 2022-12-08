@@ -1,2 +1,2 @@
 # neogcamp-mark13
- is your bday a palindrome?
+##### Is your birthday a palindrome? Let's find [out.](https://pdrome-bday-mark13.netlify.app/ "palindrome birthday") 
